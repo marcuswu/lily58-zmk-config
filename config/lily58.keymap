@@ -14,17 +14,17 @@
 
         windows {
             bindings = <&tog 0>;
-            key-positions = <0 49>;
+            key-positions = <49 1>;
         };
 
         mac {
             bindings = <&tog 1>;
-            key-positions = <1 49>;
+            key-positions = <49 2>;
         };
 
         gaming {
-            bindings = <&tog 3>;
-            key-positions = <2 49>;
+            bindings = <&tog 2>;
+            key-positions = <49 3>;
         };
     };
 
