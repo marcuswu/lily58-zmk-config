@@ -32,14 +32,17 @@
         windows: windows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0 &tog 0>;
+            bindings = <&macro_tap>, <&tog 0 &bt BT_SEL 0>;
+
             label = "WINDOWS";
+            wait-ms = <0>;
         };
 
         mac: mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1 &tog 1>;
+            bindings = <&macro_tap>, <&tog 1 &bt BT_SEL 1>;
+
             label = "MAC";
         };
     };
