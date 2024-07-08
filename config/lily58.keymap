@@ -71,11 +71,11 @@
         mac {
             display-name = "mac";
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans    &trans  &trans  &trans
-&none   &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &kp LGUI  &trans  &trans    &trans  &trans  &trans  &kp RGUI
+&trans  &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans     &trans  &trans  &trans
+&none   &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+                        &trans  &kp LGUI  &trans  &trans    &trans  &trans  &trans  &kp RCTRL
             >;
         };
 
